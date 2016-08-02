@@ -3,7 +3,7 @@ import sys
 
 #S5  EP 1 980216073932.28       123.5 S 3
 #0123456789012345678901234567890123456789
-f = open('dados_mestrado.txt','r')
+f = open('hypo71_datas.txt','r')
 s = open('hypocenter', 'w')
 lines  = f.readlines()
 for line in lines:
